@@ -5,7 +5,7 @@ class Fat extends Component{
 
     render(){
         return(
-            <h1>git git git</h1>
+            <h1>git fat git</h1>
         );
     }
 }
