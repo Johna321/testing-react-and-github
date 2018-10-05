@@ -9,9 +9,13 @@ class Fat extends Component{
     render(){
         return(
             <div className="fat">
-                <h1>git fat git</h1>
+                <h1>how much do you like kevin's chili</h1>
+                {this.state.count > 9 ?
+                    <img src="chili2.jpg" alt="kevin"></img> :
+                    <img src="chili1.jpg" alt="kevin"></img>
+                }
                 <span>{this.formatCount()}</span>
-                <button onClick={this.handleIncrement}>yo a button</button>
+                <button onClick={this.handleIncrement}>a lot</button>
             </div>
         );
     }
